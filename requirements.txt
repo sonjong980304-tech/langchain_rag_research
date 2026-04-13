@@ -1,20 +1,18 @@
-# 핵심 프레임워크
-streamlit==1.43.2
-langchain==0.3.21
-langchain-openai==0.3.9
-langchain-community==0.3.20
-langchain-core==0.3.46
+# --- 핵심 엔진 ---
+streamlit
+langchain
+langchain-openai
+langchain-community
+langchain-core
+langchain-experimental
 
-# 문서 처리 및 검색
-pdfplumber==0.11.5
-faiss-cpu==1.10.0
+# --- 데이터 및 PDF 처리 ---
+pdfplumber
+faiss-cpu
+tiktoken
+pandas
+
+# --- 외부 검색 및 유틸 ---
 tavily-python
-tiktoken==0.9.0
-
-# 유틸리티
-python-dotenv==1.0.1
-pydantic==2.10.6
-pandas==2.2.3
-
-# 의미론적 분할(Semantic Chunker) 사용 시 필요
-langchain-experimental==0.3.4
+python-dotenv
+pydantic
