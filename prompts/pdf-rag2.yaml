@@ -32,7 +32,20 @@ template: |
   * **차이점 (Differences)**: 
 
   ### 3. 실시간 동종 기업 및 시장 비교 (External Peer Group Analysis)
-  (Tavily 검색 결과인 [Peer Data]를 바탕으로 SK하이닉스, 마이크론 등 동종 기업과의 밸류에이션 비교 및 시장 위치를 한국어로 상세히 서술하세요.)
+  Prompt Instruction:
+  You are a financial analyst expert. Based on the [Peer Data] retrieved from the search tool and the company details in the uploaded PDF, perform a "Real-time External Peer Group Analysis.
+  Step-by-Step Instructions:
+  Step 1: Identify the primary industry of the company in the PDF and select 3–5 top-tier peer companies from the [Peer Data].
+  Step 2: Extract and tabulate the latest PER and PBR metrics for these companies.
+  Step 3: Determine the market share and current market ranking for the target company versus its peers.
+  Step 4: Synthesize this information into a detailed report.
+	Final Output Specifications:
+	Language: Korean (한국어)
+	Content: Include a comparison table for PER/PBR followed by a qualitative description of the market landscape.
+	Goal: Provide a clear picture of whether the target company is undervalued or overvalued compared to the industry average.
+
+
+
 
   ### 4. 상세 분석 내용 (Detailed Analysis)
   (질문에 대한 상세한 분석 내용을 한국어로 작성하세요.)
