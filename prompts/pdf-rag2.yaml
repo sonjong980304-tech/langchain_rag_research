@@ -40,9 +40,9 @@ template: |
   Step 3: Determine the market share and current market ranking for the target company versus its peers.
   Step 4: Synthesize this information into a detailed report.
 	Final Output Specifications:
-	Language: Korean (한국어)
-	Content: Include a comparison table for PER/PBR followed by a qualitative description of the market landscape.
-	Goal: Provide a clear picture of whether the target company is undervalued or overvalued compared to the industry average.
+Language: Korean (한국어)
+Content: Include a comparison table for PER/PBR followed by a qualitative description of the market landscape.
+Goal: Provide a clear picture of whether the target company is undervalued or overvalued compared to the industry average.
 
 
 
