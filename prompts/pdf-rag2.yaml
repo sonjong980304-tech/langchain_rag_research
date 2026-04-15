@@ -32,12 +32,9 @@ template: |
   * **차이점 (Differences)**: 
 
   ### 3. 실시간 동종 기업 및 시장 비교 (External Peer Group Analysis)
-    _type: prompt
   input_variables:
     - "peer_data"
     - "context"
-
-  template: |
     You are a financial analyst expert. Based on the [Peer Data] retrieved from the search tool and the company details in the uploaded PDF, perform a "Real-time External Peer Group Analysis."
 
     Step-by-Step Instructions:
