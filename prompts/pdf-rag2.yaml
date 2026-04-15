@@ -32,14 +32,23 @@ template: |
   * **차이점 (Differences)**: 
 
   ### 3. 실시간 동종 기업 및 시장 비교 (External Peer Group Analysis)
-  Prompt Instruction:
-  You are a financial analyst expert. Based on the [Peer Data] retrieved from the search tool and the company details in the uploaded PDF, perform a "Real-time External Peer Group Analysis.
-  Step-by-Step Instructions:
-  Step 1: Identify the primary industry of the company in the PDF and select 3–5 top-tier peer companies from the [Peer Data].
-  Step 2: Extract and tabulate the latest PER and PBR metrics for these companies.
-  Step 3: Determine the market share and current market ranking for the target company versus its peers.
-  Step 4: Synthesize this information into a detailed report.
-	
+    _type: prompt
+  input_variables:
+    - "peer_data"
+    - "context"
+
+  template: |
+    You are a financial analyst expert. Based on the [Peer Data] retrieved from the search tool and the company details in the uploaded PDF, perform a "Real-time External Peer Group Analysis."
+
+    Step-by-Step Instructions:
+    Step 1: Identify the primary industry of the company in the PDF and select 3–5 top-tier peer companies from the [Peer Data].
+    Step 2: Extract and tabulate the latest PER and PBR metrics for these companies.
+    Step 3: Determine the market share and current market ranking for the target company versus its peers.
+    Step 4: Synthesize this information into a detailed report.
+
+    [Peer Data]: {peer_data}
+    [Company Details]: {context}
+
 
 
 
